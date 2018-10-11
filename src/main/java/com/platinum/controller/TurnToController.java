@@ -23,4 +23,9 @@ public class TurnToController {
 	public String turnToBaiduMap2() {
 		return "BaiduMap2";
 	}
+	// 跳转到WEB-INF/jsp/BaiduMap2.jsp页面
+	@RequestMapping("BaiduMap3")
+	public String turnToBaiduMap3() {
+		return "BaiduMap3";
+	}
 }
