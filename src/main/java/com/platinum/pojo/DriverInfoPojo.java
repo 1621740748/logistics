@@ -32,4 +32,59 @@ public class DriverInfoPojo {
 	private Integer status;
 	//前台可视化的状态信息，根据状态位status，调用setter(TransUtils.getDriverStatus(status))方法获得
 	private String driverStatus;
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getSex() {
+		return sex;
+	}
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+	public Integer getTelePhone() {
+		return telePhone;
+	}
+	public void setTelePhone(Integer telePhone) {
+		this.telePhone = telePhone;
+	}
+	public String getLicense() {
+		return license;
+	}
+	public void setLicense(String license) {
+		this.license = license;
+	}
+	public Date getLicenseDate() {
+		return licenseDate;
+	}
+	public void setLicenseDate(Date licenseDate) {
+		this.licenseDate = licenseDate;
+	}
+	public Integer getDriverYears() {
+		return driverYears;
+	}
+	public void setDriverYears(Integer driverYears) {
+		this.driverYears = driverYears;
+	}
+	public Integer getStatus() {
+		return status;
+	}
+	public void setStatus(Integer status) {
+		this.status = status;
+	}
+	public String getDriverStatus() {
+		return driverStatus;
+	}
+	public void setDriverStatus(String driverStatus) {
+		this.driverStatus = driverStatus;
+	}
+	
 }

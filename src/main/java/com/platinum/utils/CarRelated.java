@@ -17,9 +17,25 @@ public enum CarRelated {
 	private String carType;
 	
 	CarRelated(String carType, String... license) {
-		this.carType = carType;
+		this.setCarType(carType);
 		for (String str : license) {
 			this.driverLicenseList.add(str);
 		}
+	}
+
+	public List<String> getDriverLicenseList() {
+		return driverLicenseList;
+	}
+
+	public void setDriverLicenseList(List<String> driverLicenseList) {
+		this.driverLicenseList = driverLicenseList;
+	}
+
+	public String getCarType() {
+		return carType;
+	}
+
+	public void setCarType(String carType) {
+		this.carType = carType;
 	}
 }

@@ -28,4 +28,47 @@ public class CarInfoPojo {
 	private Integer status;
 	//前台可视化的状态信息，根据状态位status，调用setter(TransUtils.getCarStatus(status))方法获得
 	private String carStatus;
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getNumber() {
+		return number;
+	}
+	public void setNumber(String number) {
+		this.number = number;
+	}
+	public Date getBuyDate() {
+		return buyDate;
+	}
+	public void setBuyDate(Date buyDate) {
+		this.buyDate = buyDate;
+	}
+	public Integer getCarYears() {
+		return carYears;
+	}
+	public void setCarYears(Integer carYears) {
+		this.carYears = carYears;
+	}
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+	public Integer getStatus() {
+		return status;
+	}
+	public void setStatus(Integer status) {
+		this.status = status;
+	}
+	public String getCarStatus() {
+		return carStatus;
+	}
+	public void setCarStatus(String carStatus) {
+		this.carStatus = carStatus;
+	}
+	
 }

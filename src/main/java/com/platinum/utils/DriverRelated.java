@@ -17,4 +17,13 @@ public enum DriverRelated {
 			this.carTypeList.add(str);
 		}
 	}
+
+	public List<String> getCarTypeList() {
+		return carTypeList;
+	}
+
+	public void setCarTypeList(List<String> carTypeList) {
+		this.carTypeList = carTypeList;
+	}
+	
 }
